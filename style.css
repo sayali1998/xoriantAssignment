@@ -1,0 +1,95 @@
+#header {
+	background-color: #232f3f;
+	height: 88px;
+    padding: 36px 0 0;
+    
+}
+#logo
+{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+#navigation {
+	display: inline-block;
+	line-height: 80px;
+	list-style: none;
+    margin-left: 170px;
+	padding-bottom: 140px;
+    *width: 345px; /** Needed for IE7 **/
+}
+#navigation li {
+	float: left;
+	margin: 0 25px;
+}
+#navigation li:first-child {
+	margin-left: 0;
+}
+#navigation li a {
+	color: #fff;
+	font-family: 'Comic Neue', cursive;
+	font-size: 18px;
+	padding: 15px 0;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+#navigation li a:hover, #navigation li.selected a {
+	color: #ffc947;
+}
+#contents {
+	background-position: -961px top;
+	background-repeat: repeat-y;
+	width: 1770px;
+	
+}
+#divli{
+    font-family: 'Comic Neue', cursive;
+}
+#table{
+    font-family: 'Comic Neue', cursive;
+    padding: 10px;
+}
+#para
+{
+	text-align: center;
+	font-family: 'Comic Neue', cursive;
+	size: 16px;
+}
+#userForm{
+	text-align: center;
+	font-family: 'Comic Neue', cursive;
+	color: #232f3f;
+	font-size: 50px;
+	margin: 30px;
+}
+#validateForm{
+	padding: 30px 100px;
+}
+label{
+	font-family: 'Comic Neue', cursive;
+	font-size: 20px;
+	
+}
+input[type=text], select {
+	width: 100%;
+	padding: 12px 5px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-bottom: 20px;
+	
+  }
+
+  input[type=email], select {
+	width: 100%;
+	padding: 12px 5px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-bottom: 20px;
+	
+  }
